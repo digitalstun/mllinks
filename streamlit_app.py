@@ -11,7 +11,7 @@ col2.image(Image.open('dp.png'))
 
 st.header('Randy Lafayette')
 
-st.info('Director, Cinematographer, Developer Advocate')
+st.info('Director, Cinematographer, Developer')
 
 icon_size = 20
 
