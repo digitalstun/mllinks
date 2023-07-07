@@ -10,9 +10,9 @@ load_css()
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('randy.png'))
 
-st.header('Randy Lafayette')
+st.header('Randolph Lafayette')
 
-st.info('Director, Cinematographer, Developer')
+st.info('Developer, Director, Cinematographer')
 
 icon_size = 20
 
