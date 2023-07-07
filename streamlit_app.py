@@ -13,7 +13,7 @@ col2.image(Image.open('randy.png'))
 
 st.header('Randolph Lafayette')
 
-st.info('    Developer, Director, Cinematographer, AI, Support Specialist    ')
+st.info('Developer, Film Director, Cinematographer, AI Advocate & Support Specialist')
 
 icon_size = 20
 
