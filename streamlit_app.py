@@ -21,5 +21,3 @@ st_button('instagram', 'https://www.instagram.com/mr_lafayette', 'Follow me on I
 st_button('twitter', 'https://twitter.com/digitalstun', 'Follow me on Twitter', icon_size)
 st_button('linkedin', 'https://www.linkedin.com/in/randolph-lafayette-303721139/', 'Follow me on LinkedIn', icon_size)
 # st_button('medium', 'https://', 'Read my blogs, icon_size)
-# st_button('newsletter', 'https://sendfox.com/dataprofessor/', 'Sign up for my Newsletter', icon_size)
-# st_button('cup', 'https://www.buymeacoffee.com/dataprofessor/', 'Buy me a Coffee', icon_size)
