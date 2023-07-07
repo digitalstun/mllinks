@@ -77,15 +77,15 @@ def st_button(icon, url, label, iconsize):
             </a>
         </p>'''
 
-  elif icon == 'bigcartel':
-          button_code = f'''
-          <p>
-              <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width={iconsize} height={iconsize} fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
-                     <path d="M2.75 3a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H2.75zM0 4.25A.75.75 0 0 1 .75 3h1.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 4.25zM15.25 3h-1.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zM6 3a.75.75 0 0 0 0 1.5h4.25a.75.75 0 0 0 0-1.5H6zM0 6.5a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 6.5zM3 9a.75.75 0 0 0 0 1.5h1.25a.75.75 0 0 0 0-1.5H3zm9 0a.75.75 0 0 0 0 1.5H13a.75.75 0 0 0 0-1.5h-1.25zm-9 3a.75.75 0 0 0 0 1.5H6a.75.75 0 0 0 0-1.5H3zm9 0a.75.75 0 0 0 0 1.5h1.25a.75.75 0 0 0 0-1.5H12z"/>
-                  </svg>
-                  {label}
-              </a>
-          </p>'''
+  # elif icon == 'bigcartel':
+  #         button_code = f'''
+  #         <p>
+  #             <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
+  #                 <svg xmlns="http://www.w3.org/2000/svg" width={iconsize} height={iconsize} fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+  #                    <path d="M2.75 3a.75.75 0 0 0 0 1.5h10.5a.75.75 0 0 0 0-1.5H2.75zM0 4.25A.75.75 0 0 1 .75 3h1.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 4.25zM15.25 3h-1.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zM6 3a.75.75 0 0 0 0 1.5h4.25a.75.75 0 0 0 0-1.5H6zM0 6.5a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H.75A.75.75 0 0 1 0 6.5zM3 9a.75.75 0 0 0 0 1.5h1.25a.75.75 0 0 0 0-1.5H3zm9 0a.75.75 0 0 0 0 1.5H13a.75.75 0 0 0 0-1.5h-1.25zm-9 3a.75.75 0 0 0 0 1.5H6a.75.75 0 0 0 0-1.5H3zm9 0a.75.75 0 0 0 0 1.5h1.25a.75.75 0 0 0 0-1.5H12z"/>
+  #                 </svg>
+  #                 {label}
+  #             </a>
+  #         </p>'''
     
     return st.markdown(button_code, unsafe_allow_html=True)
