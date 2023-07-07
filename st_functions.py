@@ -66,10 +66,13 @@ def st_button(icon, url, label, iconsize):
                 {label}
             </a>
         </p>'''
-    elif icon == '':
+    elif icon == 'instagram':
         button_code = f'''
         <p>
-            <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
+             <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width={iconsize} height={iconsize} fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M11 0H5C2.239 0 0 2.239 0 5v6c0 2.761 2.239 5 5 5h6c2.761 0 5-2.239 5-5V5c0-2.761-2.239-5-5-5zm3 11c0 1.654-1.346 3-3 3H5c-1.654 0-3-1.346-3-3V5c0-1.654 1.346-3 3-3h6c1.654 0 3 1.346 3 3v6zm-6-4a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm4.5-5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                </svg>
                 {label}
             </a>
         </p>'''
