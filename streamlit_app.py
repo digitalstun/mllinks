@@ -4,7 +4,7 @@ from PIL import Image
 
 load_css()
 
-st.write("[![Star](https://github.com/digitalstun)")
+# st.write("[![Star](https://github.com/digitalstun)")
 # st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?logo=github&style=social)](https://gitHub.com/dataprofessor/links)")
 
 col1, col2, col3 = st.columns(3)
@@ -17,7 +17,7 @@ st.info('Director, Cinematographer, Developer')
 icon_size = 20
 
 st_button('youtube', 'https://www.youtube.com/channel/UCnAUn4WRpHu6Y7XR0O26iEQ', 'Film and Coding YouTube channel', icon_size)
-st_button('Store', 'https://mrlafayette.bigcartel.com/products', 'Shop Tees & Apparel', icon_size)
+# st_button('Store', 'https://mrlafayette.bigcartel.com/products', 'Shop Tees & Apparel', icon_size)
 # st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
 # st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
 # st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
