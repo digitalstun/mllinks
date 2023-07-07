@@ -20,7 +20,8 @@ icon_size = 20
 st_button('youtube', 'https://www.youtube.com/channel/UCnAUn4WRpHu6Y7XR0O26iEQ', 'Cinematography and Film YouTube channel', icon_size)
 
 def st_button(label, link, text, icon_size):
-    button_code = f'<a href="{https://mrlafayette.bigcartel.com/products}" target="_blank"><button style="font-size: {icon_size}px;">{text}</button></a>'
+    link = 'https://mrlafayette.bigcartel.com/products'
+    button_code = f'<a href="{link}" target="_blank"><button style="font-size: {icon_size}px;">{text}</button></a>'
     return button_code
   
 # st_button('Shop', 'https://mrlafayette.bigcartel.com/products', 'Shop T-Shirts, Prints & Apparel', icon_size)
