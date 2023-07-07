@@ -9,7 +9,7 @@ st.write("[![Star](https://img.shields.io/github/stars/digitalstun/mllinks.svg?l
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('randy.png'))
 
-st.header('Randolph Lafayette')
+st.header('Mr Lafayette', 'digitalStun')
 
 st.info('Developer, Director, Cinematographer, AI Advocate & Support Specialist')
 
