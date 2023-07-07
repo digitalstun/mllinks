@@ -17,6 +17,8 @@ st.info('Developer, Film Director, Cinematographer, AI Advocate & Support Specia
 icon_size = 20
 
 st_button('youtube', 'https://www.youtube.com/channel/UCnAUn4WRpHu6Y7XR0O26iEQ', 'Cinematography and Film', icon_size)
+st_button('bigcartel', 'https://mrlafayette.bigcartel.com/products', 'Visit Big Cartel Store', 16)
+
 st_button('instagram', 'https://www.instagram.com/mr_lafayette', 'Follow us on Instagram', '24')
 
 # st_button('Shop', 'https://mrlafayette.bigcartel.com/products', 'Shop T-Shirts, Prints & Apparel', icon_size)
